@@ -1,0 +1,131 @@
+#welcome-section {
+  font-family: Garamond;
+  background: #bfc49e;
+}
+
+#name {
+  font-family: Brush Script MT;
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 400px) {
+  #girl {
+    width: 248px;
+    height: 248px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: right;
+    margin-top: -100px;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #girl {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  background: #dee1ce;
+}
+
+.project-tile {
+  width: 250px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgb(245, 240, 230);
+}
+
+.project-tile a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.project-tile img {
+  width: 100%;
+  height: auto;
+}
+
+.project-tile .project-description {
+  padding: 10px;
+}
+
+.project-tile .project-title {
+  font-weight: bold;
+  font-family: Garamond;
+}
+
+.project-tile .project-description p {
+  margin: 5px 0;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar ul li {
+  display: inline;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+#navbar ul li a {
+  color: #9ea770;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: black;
+}
+
+#outro {
+  text-align: center;
+}
+
+#content {
+  text-align: center;
+  background: #bfc49e;
+}
+
+.profile-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  background-color: inherit;
+  padding: 5px;
+}
+
+.profile-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-color: transparent;
+}
