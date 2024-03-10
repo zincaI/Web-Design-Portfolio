@@ -108,7 +108,7 @@ body {
   text-align: center;
 }
 
-#content {
+#contact {
   text-align: center;
   background: #bfc49e;
 }
@@ -128,4 +128,8 @@ body {
   margin-right: 5px;
   vertical-align: middle;
   background-color: transparent;
+}
+
+#issues{
+    color:#bfc49e;
 }
